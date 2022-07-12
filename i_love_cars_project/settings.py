@@ -68,6 +68,10 @@ TEMPLATES = [
     },
 ]
 
+REST_FRAMEWORK = {
+    'COERCE_DECIMAL_TO_STRING': False
+}
+
 WSGI_APPLICATION = 'i_love_cars_project.wsgi.application'
 
 
